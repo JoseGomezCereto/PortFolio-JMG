@@ -1,0 +1,52 @@
+{
+    "profile": {
+        "rol": "Desarrollador de Aplicaciones",
+        "description":"Desarrollador en formación. Apasionado de la tecnología y los ordenadores. <br> Me Encantan los videojuegos, leer, escuchar música... <br> Siempre aprendiendo, siempre mejorando. <br> <br> La teoría es cuando sabes algo, pero no funciona. La Práctica, cuando algo funciona, pero no sabes por qué. Los Programadores combinan teoría y práctica: Nada funciona y nadie sabe por qué."
+    },
+    "skills": {
+        "skills":"Habilidades",
+        "years":"Años de Experiencia",
+        "technologies":"Tecnologías",
+        "languages":"Idiomas",
+        "proficiency":"Proficiencia",
+        "language1":"Español",
+        "language2":"Inglés",
+        "language3":"Japonés"
+    },
+    "courses": {
+        "courses-title":"Educación",
+        "first-course-title":"CFGS Desarrollo Aplicaciones Multiplataforma",
+        "first-course-dates":"Septiembre 2022 - Junio 2024",
+        "first-course-description":"Educación pública. Curso integrado de 2 años de desarrollo de apps multiplataforma.",
+        "second-course-title": "Desarrollo Web para Principiantes",
+        "second-course-dates": "Marzo 2022 - Septiembre 2022",
+        "second-course-description":"Curso integrado sobre HTML5, CSS3 y JavaScript para principiantes en el desarrollo web."
+    },
+    "experience": {
+        "experience-title":"Experiencia Profesional",
+        "first-job-title":"Desarrollador Freelance",
+        "first-job-dates":"Marzo 2022 - Actualidad",
+        "first-job-description":"Varios proyectos para adquirir experiencia. Desarrollo para familia y amigos.",
+        "second-job-title":"Trabajo @Genérico",
+        "second-job-dates":"Fecha Año - Fecha Año",
+        "second-job-description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "third-job-title":"Trabajo @Genérico",
+        "third-job-dates":"Fecha Año - Fecha Año",
+        "third-job-description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    },
+    "hobbies": {
+        "hobbies-title":"Viajar",
+        "hobbies-description":"Me encanta viajar y descubrir nuevos lugares y culturas. Mi último viaje fue un curso de 3 meses del idioma japonés en Tokyo, Japón.",
+        "hobbies-description2":"Localizada en un pequeño barrio Nogata es un área residencial llena de vida, tiendas y restaurantes.",
+        "hobbies-title2":"Modelismo",
+        "hobbies-description3":"También me relaja y satisface mucho montar y pintar miniaturas de Warhammer."
+    },
+    "projects": {
+        "first-project-title":"Aplicación de aprendizaje del idioma japonés",
+        "first-project-description":"Proyecto personal de condensar todo mi conocimiento en una aplicación bien construida para aprender japonés de forma autodidacta. Usable tanto en entornos Android como Apple. Funciona en conjunto con una serie de libros y material extra para enseñanza.",
+        "second-project-title":"Portfolio Web personal",
+        "second-project-description":"Mi propio portfolio modular y personalizable para enseñar todas las habilidades, estudios y experiencia profesional que he ido acumulando a lo largo de mi carrera.",
+        "third-project-title":"PROYECTO GENERICO",
+        "third-project-description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quia adipisci, fugiat deleniti amet optio eum ut asperiores veniam, provident, porro maiores dolores. Repellat inventore voluptate ducimus quis doloremque nobis!"
+    }
+}

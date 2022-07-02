@@ -36,6 +36,8 @@ body.dark {
     --bg-card-color: hsl(0, 0%, 20%);
 }
 
+/* HEADER & SWITCHES */
+
 .header {
     display: flex;
     align-items: center;
@@ -67,6 +69,26 @@ body.dark {
 .toggle-theme_text{
     font-size: 0.8rem;
 }
+
+/*FLAGS*/
+
+.flags{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flag_item{
+    width: 30px;
+}
+
+.flags_img{
+    display: block;
+    cursor: pointer;
+}
+
+/*COLORS*/
 
 .colors{
     display: flex;
@@ -100,6 +122,8 @@ body.dark {
     --primary-color: hsl(46, 84%, 56%);
 }
 
+/*TITLES & MAIN*/
+
 .title{
     align-items: center;
     color: var(--primary-color);
@@ -130,6 +154,8 @@ body.dark {
         align-items: start;
     }
 }
+
+/*CARDS*/
 
 .card{
     padding: 1em;
@@ -192,6 +218,8 @@ body.dark {
     max-width: 50%;
 }
 
+/*SKILLS*/
+
 .skills{
     padding: 1em 0;
     padding-top: 0;
@@ -214,6 +242,8 @@ body.dark {
     justify-content: space-between;
     margin-bottom: 0.5em;
 }
+
+/*PROGRESS*/
 
 .skills_bar,
 .skills_bar::after{
@@ -264,6 +294,8 @@ body.dark {
     --skills-bar-lenght:100%;
 }
 
+/*EXPERIENCE*/
+
 .experience{
     display: flex;
     align-items: start;
@@ -295,6 +327,8 @@ body.dark {
     font-size: 0.8rem;
     margin-bottom: 1.5em;
 }
+
+/*PROJECTS*/
 
 .project{
     position: relative;
@@ -328,6 +362,8 @@ body.dark {
     color: var(--bg-color);
 }
 
+/*BUTTONS*/
+
 .buttons{
     display: flex;
     justify-content: space-between;
@@ -360,9 +396,13 @@ body.dark {
     border: 2.5px solid var(--primary-color);
 }
 
+/*NO-MARGIN RESET*/
+
 .no-margin{
     margin: 0;
 }
+
+/*ANIMATION*/
 
 @keyframes skills-bar-fill {
     to{

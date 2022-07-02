@@ -9,12 +9,29 @@
 </head>
 <body class="dark">
     <header class="header">
+
+        <!--DARK MODE-->
+
         <div class="switches">
             <div id="toggle-theme" class="toggle-theme">
                 <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme_icon">
                 <p id="toggle-text" class="toggle-theme_text">Dark Mode</p>
             </div>
         </div>
+
+        <!--MULTI LANGUAGE-->
+
+        <div id="flags" class="flags">
+            <div class="flag_item" data-language="es">
+                <img src="assets/icons/flagSP.svg" alt="flag item">
+            </div>
+            <div class="flag_item" data-language="en">
+                <img src="assets/icons/flagUK.svg" alt="flag item">
+            </div>
+        </div>
+
+        <!--TOGGLE COLORS-->
+
         <div id="toggle-colors" class="colors">
             <div data-color="hsl(214, 84%, 56%)" class="colors_item colors_item--blue"></div>
             
@@ -27,14 +44,16 @@
     </header>
     <main class="main">
         <section class="column column--left">
+
             <!--PROFILE CARD-->
+
             <article class="card card--profile">
                 <div class="card_image-container">
                     <img src="/assets/images/myself.jpg" alt="profile">
                 </div>
                 <div class="card_header">
                     <h2 class="card_title no-margin">José María Gómez Cereto</h2>
-                    <p class="card_subtitle no-margin">App Developer</p>
+                    <p class="card_subtitle no-margin" data-section="profile" data-value="rol">App Developer</p>
                 </div>
                 <div class="card_body">
                     <div class="card_link">
@@ -51,57 +70,61 @@
                     </div>
                 </div>
                 
-                <p class="card_text">
+                <p class="card_text" data-section="profile" data-value="description">
                     Developer in training. Passionate about technologies and computers. <br> I love video games, reading, music... <br> Always learning, always improving. <br> <br>
                     Theory is when you know something, but it doesn't work. Practice is when something works, but you don't know why. Programmers combine theory and practice: Nothing works and they don't know why.
                 </p>
                 </div>
             </article>
+
             <!--STUDIES CARD-->
+
             <article class="card card--experience">
-                <h2 class="card_title">Studies - Courses</h2>
+                <h2 class="card_title" data-section="courses" data-value="courses-title">Studies - Courses</h2>
                 <div class="experience">
                     <img src="assets/icons/programming-monitor.svg" alt="logo" class="experience_image">
                     <div class="experience_info">
-                        <p class="experience_time">Sep 2022 - Jun 2024</p>
-                        <h3 class="experience_job">Vocational Course App Developing</h3>
-                        <p class="experience_description">Public Education. Integrated 2-year course for multiplatform app developing</p>
+                        <p class="experience_time" data-section="courses" data-value="first-course-dates">Sep 2022 - Jun 2024</p>
+                        <h3 class="experience_job" data-section="courses" data-value="first-course-title">Vocational Course App Developing</h3>
+                        <p class="experience_description" data-section="courses" data-value="first-course-description">Public Education. Integrated 2-year course for multiplatform app developing</p>
                     </div>
                 </div>
                 <div class="experience">
                     <img src="assets/icons/programming-monitor.svg" alt="logo" class="experience_image">
                     <div class="experience_info">
-                        <p class="experience_time">Mar 2022 - Sep 2022</p>
-                        <h3 class="experience_job">Web Developing for Beginners</h3>
-                        <p class="experience_description">Integrated course about HTML5, CSS3 and JavaScript for Web Developing</p>
+                        <p class="experience_time" data-section="courses" data-value="second-course-dates">Mar 2022 - Sep 2022</p>
+                        <h3 class="experience_job" data-section="courses"data-value="second-course-title">Web Developing for Beginners</h3>
+                        <p class="experience_description" data-section="courses"data-value="second-course-description">Integrated course about HTML5, CSS3 and JavaScript for Web Developing</p>
                     </div>
                 </div>
             </article>
+
             <!--WORKING EXPERIENCE CARD-->
+
             <article class="card card--experience">
-                <h2 class="card_title">Working Experience</h2>
+                <h2 class="card_title"data-section="experience"data-value="experience-title">Working Experience</h2>
                 <div class="experience">
                     <img src="assets/icons/working-job.svg" alt="logo" class="experience_image">
                     <div class="experience_info">
-                        <p class="experience_time">Mar 2022 - Current</p>
-                        <h3 class="experience_job">Freelancing Developing</h3>
-                        <p class="experience_description">Various projects for adquiring experience. Development for family and friends.</p>
+                        <p class="experience_time"data-section="experience"data-value="first-job-dates">Mar 2022 - Current</p>
+                        <h3 class="experience_job"data-section="experience"data-value="first-job-title">Freelancing Developing</h3>
+                        <p class="experience_description"data-section="experience"data-value="first-job-description">Various projects for adquiring experience. Development for family and friends.</p>
                     </div>
                 </div>
                 <div class="experience">
                     <img src="assets/icons/working-job.svg" alt="logo" class="experience_image">
                     <div class="experience_info">
-                        <p class="experience_time">Date Year - Date Year</p>
-                        <h3 class="experience_job">GENERIC @JOB</h3>
-                        <p class="experience_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p class="experience_time"data-section="experience"data-value="second-job-dates">Date Year - Date Year</p>
+                        <h3 class="experience_job"data-section="experience"data-value="second-job-title">GENERIC @JOB</h3>
+                        <p class="experience_description"data-section="experience"data-value="second-job-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
                 <div class="experience">
                     <img src="assets/icons/working-job.svg" alt="logo" class="experience_image">
                     <div class="experience_info">
-                        <p class="experience_time">Date Year - Date Year</p>
-                        <h3 class="experience_job">GENERIC @JOB</h3>
-                        <p class="experience_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p class="experience_time"data-section="experience"data-value="third-job-dates">Date Year - Date Year</p>
+                        <h3 class="experience_job"data-section="experience"data-value="third-job-title">GENERIC @JOB</h3>
+                        <p class="experience_description"data-section="experience"data-value="third-job-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
             </article>
@@ -110,22 +133,24 @@
                 <div class="card_image-container">
                     <img src="assets/images/hobbies.jpg" alt="beach">
                 </div>
-                <h3 class="hobbie_title">Traveling</h3>
-                <p class="card_text">I love traveling and discovering new places and cultures. My last trip was a 3-Month language course in Tokyo, Japan.</p>
+                <h3 class="hobbie_title"data-section="hobbies"data-value="hobbies-title">Traveling</h3>
+                <p class="card_text"data-section="hobbies"data-value="hobbies-description">I love traveling and discovering new places and cultures. My last trip was a 3-Month language course in Tokyo, Japan.</p>
                 <img class="card_image-container" src="assets/images/japan.jpeg" alt="japan trip">
-                <p class="card_text">
+                <p class="card_text"data-section="hobbies"data-value="hobbies-description2">
                     Located in a small neighbourhood in Tokyo, Nogata is a living residential area full of shops and restaurants.
                 </p>
-                <h3 class="hobbie_title">Modeling</h3>
-                <p class="card_text">I also feel very relaxed and satisfied when mounting and painting Warhammer Miniatures.</p>
+                <h3 class="hobbie_title"data-section="hobbies"data-value="hobbies-title2">Modeling</h3>
+                <p class="card_text"data-section="hobbies"data-value="hobbies-description3">I also feel very relaxed and satisfied when mounting and painting Warhammer Miniatures.</p>
                 <img class="card_image-container" src="assets/images/warhammer.jpg" alt="miniature">
             </article>
         </section>
+
         <!-- SKILL CARD -->
+
         <section class="column column--right">
             <article class="card">
-                <h2 class="card_title">Skills</h2>
-                <small>Years of Experience</small>
+                <h2 class="card_title"data-section="skills"data-value="skills">Skills</h2>
+                <small data-section="skills"data-value="years">Years of Experience</small>
                 <div class="skills">
                 <div class="skills_header">
                     <span class="skills_start-level">0</span>
@@ -165,10 +190,12 @@
             </div>
         </div>
             </article>
+
               <!--FRAMEWORK CARD-->
+
               <article class="card">
-                <h2 class="card_title">Technologies</h2>
-                <small>Years of Experience</small>
+                <h2 class="card_title" data-section="skills"data-value="technologies">Technologies</h2>
+                <small data-section="skills" data-value="years">Years of Experience</small>
                 <div class="skills">
                 <div class="skills_header">
                     <span class="skills_start-level">0</span>
@@ -203,10 +230,12 @@
             </div>
         </div>
             </article>
+
             <!--LANGUAGE CARD-->
+
             <article class="card">
-                <h2 class="card_title">Languages</h2>
-                <small>Proficiency</small>
+                <h2 class="card_title" data-section="skills">Languages</h2>
+                <small data-section="skills" data-value="proficiency">Proficiency</small>
                 <div class="skills">
                 <div class="skills_header">
                     <span class="skills_start-level">A1</span>
@@ -215,22 +244,25 @@
                 <div class="skills">
                     <div class="skills_item">
                     <img class="icon_skill" src="/assets/icons/flagSP.svg" alt="icon_js">
-                    <p class="skills_tech no-margin">Spanish&nbsp;</p>
+                    <p class="skills_tech no-margin" data-section="skills" data-value="language1">Spanish&nbsp;</p>
                     <div class="skills_bar skills_bar--full"></div>
                 </div>
                 <div class="skills_item">
                     <img class="icon_skill" src="/assets/icons/flagUK.svg" alt="icon_js">
-                    <p class="skills_tech no-margin">English&nbsp;</p>
+                    <p class="skills_tech no-margin" data-section="skills"data-value="language2">English&nbsp;</p>
                     <div class="skills_bar skills_bar--70"></div>
                 </div>
                 <div class="skills_item">
                     <img class="icon_skill" src="/assets/icons/flagJP.svg" alt="icon_js">
-                    <p class="skills_tech no-margin">Japanese&nbsp;</p>
+                    <p class="skills_tech no-margin" data-section="skills" data-value="language3">Japanese&nbsp;</p>
                     <div class="skills_bar skills_bar--30"></div>
                 </div>
             </div>
         </div>
             </article>
+
+            <!--PROJECTS-->
+
             <article class="card card--project">
                 <div class="card_image-container">
                     <img src="assets/images/KANJI.png" alt="JP learning app" class="card_image kanji">
@@ -241,8 +273,8 @@
                         <span class="project_tag">#Java</span>
                         <span class="project_tag">#Multi-Platform</span>
                     </div>
-                    <h2 class="card_title">Japanese Learning App</h2>
-                    <p class="card_text">Personal project about condensing all my knowledge into a well-built App being usable in Android and Apple environments. In adition to a series of books and extra material for teaching.</p>
+                    <h2 class="card_title"data-section="projects" data-value="first-project-title">Japanese Learning App</h2>
+                    <p class="card_text"data-section="projects"data-value="first-project-description">Personal project about condensing all my knowledge into a well-built App being usable in Android and Apple environments. In adition to a series of books and extra material for teaching.</p>
                     <div class="buttons">
                         <a href="#" class="button button--primary">Visit</a>
                         <a href="#" class="button button--ghost">Code</a>
@@ -258,8 +290,8 @@
                         <span class="project_tag">#CSS</span>
                         <span class="project_tag">#JavaScript</span>
                     </div>
-                    <h2 class="card_title">Personal Web Portfolio</h2>
-                    <p class="card_text">My own, customizable and modular portfolio for showing all the projects, skills and experiences I've been accumulating during my career.</p>
+                    <h2 class="card_title"data-section="projects"data-value="second-project-title">Personal Web Portfolio</h2>
+                    <p class="card_text"data-section="projects"data-value="second-project-description">My own, customizable and modular portfolio for showing all the projects, skills and experiences I've been accumulating during my career.</p>
                     <div class="buttons">
                         <a href="#" class="button button--primary">Visit</a>
                         <a href="#" class="button button--ghost">Code</a>
@@ -275,8 +307,8 @@
                         <span class="project_tag">#CSS</span>
                         <span class="project_tag">#JavaScript</span>
                     </div>
-                    <h2 class="card_title">GENERIC PROJECT</h2>
-                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quia adipisci, fugiat deleniti amet optio eum ut asperiores veniam, provident, porro maiores dolores. Repellat inventore voluptate ducimus quis doloremque nobis!</p>
+                    <h2 class="card_title"data-section="projects"data-value="third-project-title">GENERIC PROJECT</h2>
+                    <p class="card_text"data-section="projects"data-value="third-project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quia adipisci, fugiat deleniti amet optio eum ut asperiores veniam, provident, porro maiores dolores. Repellat inventore voluptate ducimus quis doloremque nobis!</p>
                     <div class="buttons">
                         <a href="#" class="button button--primary">Visit</a>
                         <a href="#" class="button button--ghost">Code</a>
@@ -287,3 +319,4 @@
     <script src="js/scripts.js"></script>
 </body>
 </html>
+

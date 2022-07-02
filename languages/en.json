@@ -1,0 +1,52 @@
+{
+    "profile":{
+        "rol": "Multiplatform App Developer",
+        "description":"Developer in training. Passionate about technologies and computers. <br> I love video games, reading, music... <br> Always learning, always improving. <br> <br>Theory is when you know something, but it doesn't work. Practice is when something works, but you don't know why. Programmers combine theory and practice: Nothing works and they don't know why."
+    },
+    "skills": {
+        "skills":"Skills",
+        "years":"Years of Experience",
+        "technologies":"Technologies",
+        "languages":"Languages",
+        "proficiency":"Proficiency",
+        "language1":"Spanish",
+        "language2":"English",
+        "language3":"Japanese"
+    },
+    "courses": {
+        "courses-title":"Studies - Courses",
+        "first-course-title":"Vocational Course App Developing",
+        "first-course-dates":"September 2022 - June 2024",
+        "first-course-description":"Public Education. Integrated 2-year course for multiplatform app developing.",
+        "second-course-title": "Web Developing for Beginners",
+        "second-course-dates": "March 2022 - September 2022",
+        "second-course-description":"Integrated course about HTML5, CSS3 and JavaScript for Web Developing."
+    },
+    "experience": {
+        "experience-title":"Working Experience",
+        "first-job-title":"Freelance Developer",
+        "first-job-dates":"March 2022 - Current",
+        "first-job-description":"Various projects for adquiring experience. Development for family and friends.",
+        "second-job-title":"GENERIC @JOB",
+        "second-job-dates":"Date Year - Date Year",
+        "second-job-description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+        "third-job-title":"GENERIC @JOB",
+        "third-job-dates":"Date Year - Date Year",
+        "third-job-description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+    },
+    "hobbies": {
+        "hobbies-title":"Traveling",
+        "hobbies-description":"I love traveling and discovering new places and cultures. My last trip was a 3-Month language course in Tokyo, Japan.",
+        "hobbies-description2":"Located in a small neighbourhood in Tokyo, Nogata is a living residential area full of shops and restaurants. ",
+        "hobbies-title2":"Modeling",
+        "hobbies-description3":"I also feel very relaxed and satisfied when mounting and painting Warhammer Miniatures."
+    },
+    "projects": {
+        "first-project-title":"Japanese Learning App",
+        "first-project-description":"Personal project about condensing all my knowledge into a well-built App being usable in Android and Apple environments. In adition to a series of books and extra material for teaching.",
+        "second-project-title":"Personal Web Portfolio",
+        "second-project-description":"My own, customizable and modular portfolio for showing all the projects, skills and experiences I've been accumulating during my career.",
+        "third-project-title":"GENERIC @PROJECT",
+        "third-project-description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quia adipisci, fugiat deleniti amet optio eum ut asperiores veniam, provident, porro maiores dolores. Repellat inventore voluptate ducimus quis doloremque nobis!"
+    }
+}
