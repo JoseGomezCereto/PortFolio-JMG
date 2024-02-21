@@ -48,5 +48,14 @@
         "second-project-description":"My own, customizable and modular portfolio for showing all the projects, skills and experiences I've been accumulating during my career.",
         "third-project-title":"GENERIC @PROJECT",
         "third-project-description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quia adipisci, fugiat deleniti amet optio eum ut asperiores veniam, provident, porro maiores dolores. Repellat inventore voluptate ducimus quis doloremque nobis!"
+    },
+    "socialmedia": {
+        "github": "Check my GitHub!",
+        "linkedin": "Check my LinkedIn!",
+        "resume": "Download my Resume!"
+    },
+    "projectsButtons": {
+        "visit": "Visit",
+        "code": "Code"
     }
 }
